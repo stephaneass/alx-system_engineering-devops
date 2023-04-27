@@ -3,4 +3,4 @@
 # You cannot use pgrep
 # shellcheck disable=SC2009
 
-./1-list_your_processes | pgrep "bash"
+./1-list_your_processes | grep "bash"
